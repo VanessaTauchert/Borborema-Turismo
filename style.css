@@ -1,0 +1,441 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*menuup---------------*/
+#menuup{
+    background-color: #f3a350;
+    height: 70px;
+    
+}
+
+#menuup img{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+#menuup ul li{
+    list-style-type: none;
+    padding-top: 18px;
+    font-size: 14px;
+    float: right;
+}
+
+
+#menuup ul li a{
+color: white;
+} 
+
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+/*menuup---------------*/
+#menu1 ul li{
+    
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 18px;
+    font-family: 'Gotham', sans-serif;
+
+    }
+
+#menu1 .branco {
+    color: white;
+ }
+
+ #menu1 .branco:hover {
+    color: #f3a350;
+ }
+
+#pesquisar{
+    background: url(imagens/praiajuqueta.png) no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+#divbusca{
+    background-color: white;
+    border-radius:5px;
+    width:350px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    height:40px;
+}
+
+#txtBusca{
+    float:left;
+  background-color:transparent;
+  padding-left:10px;
+  font-size:16px;
+  border:none;
+  height:40px;
+  width:280px;
+}
+
+#btnBusca{
+    margin-left: 28px;
+    margin-top: 7px;
+    height:23px;
+
+}
+
+#btnok{
+    float: right;
+}
+
+.p{
+    
+    margin-top: 130px;
+    color: #e45b2d;
+    font-weight: bolder;
+    text-shadow: -3px 0 white, 0 2px white,
+
+      3px 0 white, 0 -2px white;
+      font-family: 'Gotham', sans-serif;
+}
+
+#noticias {
+    margin-top: 30px;
+}
+
+#noticias h3 {
+    font-family: 'Gotham', sans-serif;
+    color: #9b2e2e;
+    margin-bottom: 30px;
+}
+
+#noticias p{
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+
+#noticias{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+#fazer {
+    margin-top: 30px;
+}
+
+#fazer h3 {
+    color: #2f8318;
+    margin-bottom: 30px;
+    font-family: 'Gotham', sans-serif;
+
+}
+
+#fazer p{
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+
+#fazer{
+    margin-bottom: 40px;
+}
+
+
+#lista p{
+
+    padding-top: 10px;
+}
+
+.botao{
+
+    background-color: #922b2b;
+    border-radius:5px;
+    width:100px;
+    height:35px;
+    color: white;
+    float: right;
+
+}
+
+.img{
+    padding-top: 23px;
+}
+
+.im{
+    padding-top: 51px;
+}
+
+.sp{
+    
+    font-size: 14px;
+}
+
+.tp{
+    margin-top: 20px;
+}
+
+.h{
+ font-size: 18px;
+}
+
+.tp button{
+    margin-top: 20px;
+}
+
+.span4 .img-left {
+    float: left;
+    padding-bottom: 50px;
+
+}
+
+.span4 img {
+    
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
+
+.festa{
+    margin-bottom: 75px;
+    margin-top: 30px;
+}
+
+.hosp h5{
+    margin-top: 10px;
+    margin-bottom: 31px;
+
+}
+
+.hosp h3{
+    margin-bottom: 30px;
+    color: #10779f;
+    font-family: 'Gotham', sans-serif;
+
+
+}
+
+.hosp h5{
+    color: #10779f;
+    font-family: 'Gotham', sans-serif;
+    display: inline-block;
+
+
+
+}
+
+.hosp button{
+    margin-bottom: 30px;
+    background-color: #10779f;
+}
+
+.videos h3{
+    margin-bottom: 30px;
+    color: #9b2e2e;
+    font-family: 'Gotham', sans-serif;
+
+}
+
+.videos h5{
+    margin-top: 10px;
+    margin-bottom: 99px;
+    color: #9b2e2e;
+    font-family: 'Gotham', sans-serif;
+
+
+}
+
+.videos button{
+    margin-bottom: 35px;
+    background-color: #9b2e2e;
+}
+
+#eve {
+    background-color: #ffeedd;
+}
+
+#lista h3 {
+    margin-top: 30px;
+}
+
+.laranja button{
+    margin-bottom: 30px;
+    background-color: #d67b1c;
+
+}
+
+.laranja h3{
+    color: #d67b1c;
+    font-family: 'Gotham', sans-serif;
+
+}
+
+ .img-right {
+    float: right;
+}
+
+.news {
+    background-color: #76412f;
+}
+
+#txtemail{
+  width: 100%;
+  float:left;
+  padding-left:10px;
+  color: #d0791d;
+  font-size:18px;
+  border-radius: 5px; 
+  height:50px;
+  font-weight: bold;
+}
+
+#banners {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.ins {
+    margin-top: 50px;
+}
+
+.news h2 {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Gotham', sans-serif;
+
+}
+
+.news .mail {
+    margin-top: 30px;
+}
+
+
+#footer {
+    background-color: #76412f;
+}
+
+.ftt{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#footer {
+    color: white;
+}
+
+.brb {
+    margin-bottom: 20px;
+}
+
+.ft h6{
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Gotham', sans-serif;
+
+    
+}
+
+.redes {
+    padding-right: 10px;
+}
+
+#noticias p{
+    color: #4d4d4d;
+}
+
+.festa p, h5 {
+    color: #797979;
+
+}
+
+.festa h5 {
+    color: #797979;
+    font-family: 'Gotham', sans-serif;
+    
+
+}
+
+.ft h6{
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.hh {
+    float: right;
+}
+
+.data {
+    padding-top: 15px;
+    padding-right: 30px;
+}
